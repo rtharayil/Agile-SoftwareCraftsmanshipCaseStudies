@@ -1,2 +1,2 @@
-# Agile-SoftwareCraftsmanshipCaseStudies
+# AgileSoftwareCraftsmanshipCaseStudies
 Agile Software Craftsmanship Case studies
