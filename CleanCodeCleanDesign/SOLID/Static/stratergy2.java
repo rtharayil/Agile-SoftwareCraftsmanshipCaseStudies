@@ -6,7 +6,7 @@ public class UserService {
         return user;
     }
     User findUserById(long id) {
-        return UserDao.findUserById(id);
+        return UserDao.findUserById(id); //static call 
     }
     void saveUser(User user) {
         UserDao.save(user);
@@ -20,6 +20,8 @@ public class UserDao{
     static User findUserById(long id);
     static void save (User);
 }
+
+
 
 ------------------
 

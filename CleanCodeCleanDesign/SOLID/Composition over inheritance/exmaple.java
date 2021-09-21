@@ -31,3 +31,18 @@ public class AutomaticLockDoor extends Timer {
    
 }
 
+
+
+car {
+    enigne 
+
+}
+
+@test
+----
+@engine = mock()
+car {
+
+    engine 
+}
+----

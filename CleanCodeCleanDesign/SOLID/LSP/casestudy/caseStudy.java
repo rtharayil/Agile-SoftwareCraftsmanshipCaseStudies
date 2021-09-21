@@ -28,7 +28,7 @@ class SendOdinaryEmail implements IsendSecureMessage {
         public static void main(String[] args) {
           List<IsendSecureMessage> messageList = new ArrayList<IsendSecureMessage>();
           messageList.add(new SendRSASecureSMS());
-          messageList.add(new encriptMessage());
+          messageList.add(new SendOdinaryEmail());
           testEncription(messageList);
         }
         static void testEncription(List<IsendSecureMessage> messageList) {

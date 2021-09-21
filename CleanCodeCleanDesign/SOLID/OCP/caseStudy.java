@@ -52,3 +52,10 @@ public void Parse()
 		line = reader.ReadLine();
 	}
 }
+
+
+public interface Command (){
+
+
+ boolean execute (String cmdString)
+}

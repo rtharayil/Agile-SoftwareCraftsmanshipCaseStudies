@@ -4,8 +4,12 @@ Can you redesign it for the good? */
 
 interface IEmail {
 	public void setSender(String sender);
+
 	public void setReceiver(String receiver);
+	
 	public void setContent(XMLObject  content);
+
+
 	public void sendEmail ();
 }
 
