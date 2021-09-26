@@ -11,7 +11,7 @@ public class StreetAddress implements Serializable, Comparable<StreetAddress> {
         // Assign the parameter values to their corresponding fields
     }
 
-    // Getters and possible business logic methods omitted
+    
 
     public boolean equals(Object o) {
         // Check that the fields are equal
@@ -25,32 +25,5 @@ public class StreetAddress implements Serializable, Comparable<StreetAddress> {
         // Compare however you want
     }
 
-    public static class Builder {
-
-        private String streetAddress;
-        private PostalCode postalCode;
-        private String city;
-        private Country country;
-
-        public Builder() { // For creating new StreetAddresses
-        }
-
-        public Builder(StreetAddress original) { // For "modifying" existing StreetAddresses
-            streetAddress = original.streetAddress;
-            postalCode = original.postalCode;
-            city = original.city;
-            country = original.country;
-        }
-
-        public Builder withStreetAddress(String streetAddress) {
-            this.streetAddress = streetAddress;
-            return this;
-        }
-
-        // The rest of the 'with...' methods omitted
-
-        public StreetAddress build() {
-            return new StreetAddress(streetAddress, postalCode, city, country);
-        }
-    }
+    
 }

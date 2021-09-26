@@ -30,23 +30,28 @@ public class Account {
  
         this.balance = 0;
 
-        changes.add(new AccountCreated(id, owner));
+        
         return this;
+    }
+
+    public void setBalance(Money value){
+        this.balance.add(0);
+        this.balance.add(value);
     }
 
     public void deposit(Money value) {
         this.balance.add(value);
-        changes.add(new AccountDeposited(id, value));
+       
     }
 
     public void withdraw(Money value) {
         this.balance.add(value);
-        changes.add(new AccountWithdrawed(id, value));
+        
     }
 
     public void close() {
         this.closed = true;
-        changes.add(new AccountClosed(id));
+        
     }
 
     public boolean isClosed() {
@@ -62,7 +67,5 @@ public class Account {
         return balance;
     }
 
-    public List<Event> getChanges() {
-        return changes;
-    }
+    
 }
