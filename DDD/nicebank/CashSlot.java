@@ -1,15 +1,12 @@
-
 package nicebank;
 
 public class CashSlot {
-    private int contents;
-
-    public int getContents() {
-        return contents;
+    int money;
+    public int getMoney() {
+        return money;
     }
 
-    public void dispense(int dollars){
-        contents = dollars;
+    public void dispense(int amount) {
+        money =amount;
     }
 }
-

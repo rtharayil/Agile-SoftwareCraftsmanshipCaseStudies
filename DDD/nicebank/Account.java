@@ -1,15 +1,19 @@
-
 package nicebank;
 
 public class Account {
-    private Money balance = new Money();
-
-    public void deposit(Money amount) {
-        balance = balance.add(amount);
+    int balance;
+    public Account(){
+        balance=0;
+    }
+    public void deposit(int amount) {
+        balance = balance+ amount;
     }
 
-    public Money getBalance() {
-      return balance;
+    public int balance() {
+        return balance;
+    }
+
+    public void debit(int amount) {
+        balance= balance-amount;
     }
 }
-
