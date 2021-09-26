@@ -1,0 +1,32 @@
+An institutional user should be able to create an admin account in our Credential platform
+
+The admin user should be able to create and login into our Credential platform using a standard authentication process.
+
+An admin can create up to 5 moderators in this team.
+
+The moderator should be able login into our Credential platform using a standard authentication process.
+
+The admin user should be able to browse various credential plans and packages 
+and buy Credential credits so that they can be used in the future for awarding Credential.
+
+Invoices have to be generated and made available for download to admins.
+
+Monthly statements have to be generated on the consumption of credentials and Credit Balance.
+
+A moderator should be able to create a Credential template
+
+A Credential consist of A graphic and several assertions
+
+An admin or moderator  should be able to award Credential to awardees
+
+An admin or moderator  should be able to edit credentials to awardees
+
+
+The awardees should be able to create an account in our Credential platform
+
+The awardees will be able to and view their credentials.
+The awardees should be able to share credentials on social media.
+
+There needs to be access to 3 superuser account
+
+These accounts will be used by the L1 support team to make necessary changes across all users and user accounts.
