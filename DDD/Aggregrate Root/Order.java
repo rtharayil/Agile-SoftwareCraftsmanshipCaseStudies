@@ -1,13 +1,13 @@
 public class Order extends AggregateRoot { 
 
-    private CustomerId customer;
-    private String shippingName;
-    private PostalAddress shippingAddress;
-    private String billingName;
-    private PostalAddress billingAddress;
-    private Money total;
-    private Long nextFreeItemId;
-    private List<OrderItem> items = new ArrayList<>();
+    public CustomerId customer;
+    public String shippingName;
+    public PostalAddress shippingAddress;
+    public String billingName;
+    public PostalAddress billingAddress;
+    public Money total;
+    public Long nextFreeItemId;
+    public List<OrderItem> items = new ArrayList<>();
 
     public Order(Customer customer) {
         super(OrderId.createRandomUnique());
@@ -32,6 +32,10 @@ public class Order extends AggregateRoot {
     public void changeBillingAddress(String name, PostalAddress address) {
         setBillingName(name);
         setBillingAddress(address);
+    }
+    
+    public List<OrderItem>  orderItem(){
+        return items;
     }
 
     private Long getNextFreeItemId() {
