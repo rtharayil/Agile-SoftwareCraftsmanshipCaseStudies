@@ -17,9 +17,9 @@ A moderator should be able to create a Credential template
 
 A Credential consist of A graphic and several assertions
 
-An admin or moderator  should be able to award Credential to awardees
+An moderator  should be able to award Credential to awardees
 
-An admin or moderator  should be able to edit credentials to awardees
+An moderator  should be able to edit credentials to awardees
 
 
 The awardees should be able to create an account in our Credential platform
