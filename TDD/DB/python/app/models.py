@@ -1,33 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
  
-@rtharayil 
-miguelgrinberg
-/
-flasky-first-edition
-Public
-16
-192125
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-flasky-first-edition/app/models.py /
-@miguelgrinberg
-miguelgrinberg Chapter 14: API (14a)
-Latest commit aaa1be6 on 3 Jan 2014
- History
- 1 contributor
-384 lines (326 sloc)  13.4 KB
-  
 from datetime import datetime
 import hashlib
 from werkzeug.security import generate_password_hash, check_password_hash

@@ -6,10 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="predict" />
-        <module name="pre2" />
-        <module name="pre3" />
-        <module name="pre4" />
+        <module name="RefactorBasics" />
       </profile>
     </annotationProcessing>
   </component>
