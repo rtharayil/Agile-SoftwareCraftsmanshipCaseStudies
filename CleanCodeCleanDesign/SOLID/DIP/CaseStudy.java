@@ -13,7 +13,7 @@ public class PrinterDriver
         buffer page = file.readPage();
         while(!_file.IsEndOfFile(page)){
             printer.Print(page);
-            page = file.readLine();
+            page = file.readPage();
         }
     }
 }
