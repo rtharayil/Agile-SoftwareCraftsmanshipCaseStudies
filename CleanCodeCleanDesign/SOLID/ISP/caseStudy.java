@@ -31,7 +31,7 @@ public SendMessageTest{
     }
     static void testEncription(List<IsendSecureMessage> messageList) {
       for (IsendSecureMessage message : messageList) {
-        message.encriptMessage();
+        message.encript();
       }
     }
    }
