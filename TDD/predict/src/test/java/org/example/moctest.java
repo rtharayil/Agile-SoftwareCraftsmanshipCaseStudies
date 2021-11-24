@@ -21,11 +21,11 @@ import org.mockito.Mockito;
  * Unit test for simple App.
  */
 
-/*
+
 public class moctest
 
 {
-
+/*
     @Test
     public void iterator_will_return_hello_world(){
         //arrange
@@ -95,6 +95,5 @@ public class moctest
         when(mocList.size()).thenReturn(2);
 
         assertEquals(2, mocList.size());
-    }
+    } */
 }
-*/
