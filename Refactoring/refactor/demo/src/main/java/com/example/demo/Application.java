@@ -24,7 +24,7 @@ public class Application {
 				Item[] items = model.getAll();
 				QualityRuleEngine q = new QualityRuleEngine(items);
 			}
-		}, 2*60*1000, 12*60*60*1000);
+		}, 2*60*1000, 24*60*60*1000);
 	}
 
 
