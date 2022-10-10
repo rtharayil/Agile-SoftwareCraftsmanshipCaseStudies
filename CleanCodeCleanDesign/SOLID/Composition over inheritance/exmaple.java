@@ -10,7 +10,7 @@ public class Timer{
 }
 
 
-public class AutomaticLockDoor extends Timer {
+public class AutomaticTimerLockDoor extends Timer {
     
 	void lockTheDoor(){
 		// lock the door 
